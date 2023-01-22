@@ -1,7 +1,6 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@replit/database": "^2.0.2",
     "@types/node": "^18.0.6",
+    "axios": "^1.2.2",
     "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
     "node-fetch": "^3.2.6"
-  }
+  },
+  "devDependencies": {
+    "node": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crunchyeyemold/Sandvig-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crunchyeyemold/Sandvig-Bot/issues"
+  },
+  "homepage": "https://github.com/crunchyeyemold/Sandvig-Bot#readme",
+  "description": ""
 }
